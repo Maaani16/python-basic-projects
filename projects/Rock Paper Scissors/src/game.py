@@ -45,6 +45,9 @@ class RockPaperScissors :
       else :
          print("Goodbye.")
 
-game = RockPaperScissors("mani")
-game.get_comp_choice()
-game.play()
+
+if __name__ == "main.py" :
+   user_name = input("please enter your name: ")
+   game = RockPaperScissors(user_name)
+   game.get_comp_choice()
+   game.play()
