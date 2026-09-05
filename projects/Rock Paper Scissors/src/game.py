@@ -2,7 +2,7 @@ import random
 class RockPaperScissors :
    def __init__ (self, name: str) -> None : 
       self.name = name
-      self.choices = ["rock", "paper", "scissor"]
+      self.choices = ["rock", "paper", "scissors"]
       self.user_score = 0
       self.comp_score = 0
 
@@ -17,7 +17,7 @@ class RockPaperScissors :
 
    def decide_winner(self, user, comp) -> str :
       #item in dict is winner and value is losser
-      win_rule = {"rock" : "scissor", "paper": "rock" , "scissor" : "paper"}
+      win_rule = {"rock" : "scissors", "paper": "rock" , "scissors" : "paper"}
       if win_rule[user] == comp :
          return "user"
       if win_rule[comp] == user :
