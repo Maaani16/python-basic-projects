@@ -33,7 +33,7 @@ This helps me learn from the course while still giving myself the chance to thin
 | # | Project               | Status         |
 | - | --------------------- | -------------- |
 | 1 | Rock Paper Scissors   |  In Progress |
-| 2 | Password Generator    |               |
+| 2 | Password Generator    |  In Progress |
 | 3 | Streamlit Dashboard   |               |
 | 4 | Happy Numbers         |               |
 | 5 | Number to Words       |               |
